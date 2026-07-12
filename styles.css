@@ -32,7 +32,7 @@ section.hidden{display:none}
 
 .eyebrow{font-family:var(--disp);font-weight:700;font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:18px}
 .h2{font-size:clamp(1.6rem,3.4vw,2.35rem);font-weight:800;letter-spacing:-.02em;line-height:1.35;margin-bottom: 48px;color:var(--ink);}
-.lead{color:var(--disp);font-size:1.02rem;line-height:1.85;max-width:640px}
+.lead{color:var(--disp);font-size:1.2rem;line-height:1.85;max-width:640px}
 
 .rv{
   opacity:0;
@@ -106,8 +106,8 @@ nav.scrolled{border-color:var(--line)}
   transition:box-shadow .35s var(--ease-toss)}
 .card-idx{font-family:var(--disp);font-weight:800;font-size:2.4rem;
   letter-spacing:-.02em;color:var(--accent);line-height:1;display:block;margin-bottom:20px;opacity:.4}
-.card-num h3{font-size:1.1rem;font-weight:700;margin-bottom:12px}
-.card-num p{color:var(--disp);font-size:.92rem;line-height:1.8}
+.card-num h3{font-size:1.3rem;font-weight:700;margin-bottom:12px}
+.card-num p{color:var(--disp);font-size:0.95rem;line-height:1.8}
 @media(max-width:760px){.cards3{grid-template-columns:1fr;gap:36px}}
 
 /* what we do */
@@ -216,7 +216,7 @@ nav.scrolled{border-color:var(--line)}
   padding-left: 20px; 
   position: relative; 
   color: var(--dim); 
-  font-size: 0.96rem; 
+  font-size: 1.15rem; 
   line-height: 1.7; 
 }
 /* 리스트 앞의 작은 주황색 바(-) 장식 */
@@ -224,7 +224,7 @@ nav.scrolled{border-color:var(--line)}
   content: ""; 
   position: absolute; 
   left: 0; 
-  top: 0.62em; 
+  top: 0.7em; 
   width: 8px; 
   height: 2px; 
   background: var(--accent); 
@@ -249,8 +249,8 @@ nav.scrolled{border-color:var(--line)}
   box-shadow:0 6px 24px rgba(0,0,0,.06),0 2px 6px rgba(0,0,0,.04)}
 .tm .q{display:block;width:22px;color:var(--accent); opacity: .5;line-height:0;margin-bottom:6px}
 .tm .q svg{display:block;width:100%;height:auto}
-.tm p{font-size:.96rem;line-height:1.75;color:var(--ink);margin:14px 0 20px}
-.tm .name{font-family:var(--disp);font-weight:600;font-size:.78rem;letter-spacing:.06em;color:var(--dim)}
+.tm p{font-size:1rem;line-height:1.75;color:var(--ink);margin:14px 0 20px}
+.tm .name{font-family:var(--ink);font-weight:600;font-size:.78rem;letter-spacing:.06em;color:var(--ink)}
 @media(max-width:820px){.tm-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.tm-grid{grid-template-columns:1fr}}
 
@@ -335,7 +335,7 @@ nav.scrolled{border-color:var(--line)}
 .orrr-form label{
   font-family:var(--disp);
   font-weight:600;
-  font-size:.74rem;
+  font-size:0.85rem;
   letter-spacing:.08em;
   color:var(--ink);
   text-transform:uppercase;
