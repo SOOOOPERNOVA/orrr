@@ -437,7 +437,7 @@ footer .wrap{border-top:1px solid var(--line);padding-top:60px}
 .foot-brand{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px}
 .foot-brand .fl{font-family:var(--disp);font-weight:800;font-size:1.2rem;letter-spacing:.04em}
 .foot-brand .fs{font-family:var(--body);font-style:normal;color:var(--dim);font-size:.95rem;margin-top:0px}
-.foot-brand .info{margin-top:0;color:var(--dim);font-size:.82rem;line-height:1.95;text-align:right}
+.foot-brand .info{margin-top:0;color:var(--dim);font-size:.75rem;line-height:1.95;text-align:right}
 .foot-brand .info b{color:var(--ink);font-weight:600;margin-right:6px}
 .foot-brand .info a{color:var(--dim)}
 .foot-brand .info a:hover{color:var(--accent)}
