@@ -81,7 +81,7 @@ nav.scrolled{border-color:var(--line)}
 .hero .subline{font-size:clamp(1.05rem,2vw,1.25rem);color:var(--ink);font-weight:500;line-height:1.85;max-width:560px}
 .hero .subline .em{color:var(--accent);font-weight:600}
 @media(max-width:820px){
-  .hero{padding:124px 0 96px}
+  .hero{padding:230px 0 96px}
   .hero-mark{width:76px;height:76px;top:112px;right:22px}
 }
 
@@ -435,21 +435,22 @@ nav.scrolled{border-color:var(--line)}
 footer{padding:60px 0 50px}
 footer .wrap{border-top:1px solid var(--line);padding-top:60px}
 .foot-brand{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px}
-.foot-brand .fl{font-family:var(--disp);font-weight:800;font-size:1.2rem;letter-spacing:.04em}
-.foot-brand .fs{font-family:var(--body);font-style:normal;color:var(--dim);font-size:.95rem;margin-top:0px}
+.foot-brand .fl{font-family:"Quicksand",sans-serif;font-weight:700;font-style:italic;font-size:1.15rem;letter-spacing:.02em;color:var(--accent)}
+.foot-brand .fs{font-family:var(--body);font-style:normal;color:var(--dim);font-size:.95rem;margin-top:4px}
 .foot-brand .info{margin-top:0;color:var(--dim);font-size:.75rem;line-height:1.95;text-align:right}
 .foot-brand .info b{color:var(--ink);font-weight:600;margin-right:6px}
 .foot-brand .info a{color:var(--dim)}
 .foot-brand .info a:hover{color:var(--accent)}
-.foot-brand .copy{font-family:var(--body);color:#A7A29B;font-size:.78rem;margin-top:16px}
+footer .copy{font-family:var(--body);color:#A7A29B;font-size:.78rem;margin-top:36px}
 .foot-social{display:flex;gap:16px;justify-content:flex-end;margin-top:14px}
 .foot-social a{color:var(--dim)}.foot-social a:hover{color:var(--accent)}
 .foot-social svg{width:18px;height:18px;display:block}
+
 @media(max-width:560px){
   .foot-brand{flex-direction:column;align-items:center;text-align:center}
   .foot-brand .info{text-align:center}
   .foot-social{justify-content:center}
-  .foot-bottom{flex-direction:column;gap:16px;align-items:flex-start}
+  footer .copy{text-align:center;margin-top:32px}
 }
 
 /* 접근성 방어 */
