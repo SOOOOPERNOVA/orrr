@@ -461,3 +461,14 @@ footer .wrap{border-top:1px solid var(--line);padding-top:60px}
   .rv.in{opacity:1}
   .card:hover,.contact .btn:hover{translate:none}
 }
+@media(max-width:640px){
+  .nav-links a{display:none}
+  .nav-links a[href="#contact"]{
+    display:inline-flex;
+    background:var(--accent);
+    color:#fff;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:.7rem;
+  }
+}
