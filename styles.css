@@ -58,7 +58,7 @@ html:not(.js) .rv{opacity:1;transform:none;transition:none}
 nav{position:fixed;top:0;left:0;right:0;z-index:60;background:rgba(255,255,255,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
 nav.scrolled{border-color:var(--line)}
 .nav-in{max-width:1400px;margin:0 auto;padding:0 32px;height:74px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-family:var(--disp);font-weight:800;font-size:1.3rem;letter-spacing:.04em}
+.logo{font-family:"Quicksand",sans-serif;font-weight:700;font-style:italic;font-size:2.5rem;letter-spacing:.02em;color:var(--accent)}
 .nav-links{display:flex;gap:36px;align-items:center;font-family:var(--disp);font-weight:600;font-size:.82rem;letter-spacing:.08em}
 .nav-links a{color:var(--ink);transition:color .2s}
 .nav-links a:hover{color:var(--accent)}
