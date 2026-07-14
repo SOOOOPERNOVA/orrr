@@ -1,5 +1,4 @@
 :root{
-  --build:"v18";
   --accent:#E5511E;
   --accent-soft:#ffb896;
   --ink:#383838;
@@ -270,6 +269,7 @@ nav.scrolled{border-color:var(--line)}
 .contact-intro{
   position:sticky;
   top:100px;
+  margin-top: 44px;
 }
 .orrr-form{
   max-width:840px;
@@ -437,7 +437,7 @@ footer .wrap{border-top:1px solid var(--line);padding-top:60px}
 .foot-brand{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px}
 .foot-brand .fl{font-family:"Quicksand",sans-serif;font-weight:700;font-style:italic;font-size:1.15rem;letter-spacing:.02em;color:var(--accent)}
 .foot-brand .fs{font-family:var(--body);font-style:normal;color:var(--dim);font-size:.95rem;margin-top:4px}
-.foot-brand .info{margin-top:0;color:var(--dim);font-size:.75rem;line-height:1.95;text-align:right}
+.foot-brand .info{margin-top:0; color:var(--dim);font-size:.75rem;line-height:1.95;text-align:right}
 .foot-brand .info b{color:var(--ink);font-weight:600;margin-right:6px}
 .foot-brand .info a{color:var(--dim)}
 .foot-brand .info a:hover{color:var(--accent)}
@@ -445,6 +445,7 @@ footer .copy{font-family:var(--body);color:#A7A29B;font-size:.78rem;margin-top:3
 .foot-social{display:flex;gap:16px;justify-content:flex-end;margin-top:14px}
 .foot-social a{color:var(--dim)}.foot-social a:hover{color:var(--accent)}
 .foot-social svg{width:18px;height:18px;display:block}
+
 
 @media(max-width:560px){
   .foot-brand{flex-direction:column;align-items:center;text-align:center}
