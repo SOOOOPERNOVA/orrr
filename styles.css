@@ -425,6 +425,89 @@ nav.scrolled{border-color:var(--line)}
   .orrr-form .form-row{grid-template-columns:1fr;gap:20px}
 }
 
+/* ── 조건부 입력 그룹 ───────────────────────────────── */
+.orrr-form .cond-group{display:none}
+.orrr-form .cond-group.is-active{
+  display:block;
+  animation:condIn .45s var(--ease-toss);
+  margin-bottom:34px;
+  padding-bottom:34px;
+  border-bottom:1px solid var(--line);
+}
+/* ── 브랜드 문의 안내 박스 ──────────────────────────── */
+.orrr-form .notice{
+  background:var(--soft);
+  border:1px solid var(--line);
+  border-left:3px solid var(--accent);
+  border-radius:12px;
+  padding:22px 24px;
+  margin:28px 0 4px;
+}
+.orrr-form .notice h4{
+  font-family:var(--disp);
+  font-weight:700;
+  font-size:.8rem;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin-bottom:12px;
+}
+.orrr-form .notice p{
+  font-size:.88rem;
+  line-height:1.75;
+  color:var(--ink);
+  max-width:none;
+  margin:0 0 8px;
+}
+.orrr-form .notice p:last-child{margin-bottom:0}
+.orrr-form .notice .notice-strong{color:var(--ink);font-weight:600}
+ 
+/* ── 그룹 구분 제목 ─────────────────────────────────── */
+.orrr-form .group-title{
+  font-family:var(--disp);
+  font-weight:700;
+  font-size:.78rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ink);
+  margin:32px 0 16px;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--line);
+}
+ 
+/* ── 입력란 아래 보조 설명 ──────────────────────────── */
+.orrr-form .hint{
+  font-size:.8rem;
+  line-height:1.6;
+  color:#575757;
+  margin-top:-2px;
+}
+ 
+/* ── 스팸 봇 차단용 (화면에 보이지 않음) ────────────── */
+.orrr-form .hp{
+  position:absolute;
+  left:-9999px;
+  width:0;
+  height:0;
+  opacity:0;
+  pointer-events:none;
+}
+ 
+/* ── 전송 중 버튼 ───────────────────────────────────── */
+.orrr-form .btn-submit:disabled{
+  opacity:.55;
+  cursor:default;
+  translate:none;
+}
+ 
+/* ── 조건부 그룹이 길어지므로 textarea 높이 축소 ────── */
+.orrr-form textarea{min-height:150px}
+.orrr-form textarea.short{min-height:220px}
+ 
+@media(max-width:720px){
+  .orrr-form .notice{padding:18px 18px;margin-top:22px}
+  .orrr-form .group-title{margin:26px 0 14px}
+}
 /* soft 배경 위 card-num 그림자 강화 */
 .soft .card-num{
   box-shadow:0 8px 28px rgba(0,0,0,.07),0 2px 8px rgba(0,0,0,.05)}
