@@ -477,12 +477,24 @@ nav.scrolled{border-color:var(--line)}
  
 /* ── 입력란 아래 보조 설명 ──────────────────────────── */
 .orrr-form .hint{
-  font-size:.8rem;
+  font-size:.9rem;
   line-height:1.6;
   color:#575757;
   margin-top:-2px;
 }
- 
+.orrr-form .hint-row{
+  display:block;
+  margin:-10px 0 30px;
+  padding-left:17px;
+  position:relative;
+}
+.orrr-form .hint-row::before{
+  content:"※";
+  position:absolute;
+  left:0;
+  top:0;
+  color:var(--accent);
+}
 /* ── 스팸 봇 차단용 (화면에 보이지 않음) ────────────── */
 .orrr-form .hp{
   position:absolute;
